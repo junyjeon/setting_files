@@ -1,0 +1,52 @@
+# <type>(<scope>): <summary>
+#
+# <body>
+#
+# <footer>
+#
+# ═══════════════════════════════════════════════════════════════
+# Anthropic Style Commit Convention
+# ═══════════════════════════════════════════════════════════════
+#
+# Type:
+#   feat     새 기능
+#   fix      버그 수정
+#   refactor 리팩토링 (기능 변경 없음)
+#   docs     문서 수정
+#   test     테스트 추가/수정
+#   chore    빌드, 설정 변경
+#   perf     성능 개선
+#   style    포맷팅 (코드 변경 없음)
+#
+# Scope (optional):
+#   변경된 모듈/컴포넌트 이름
+#   예: feat(auth), fix(api), docs(readme)
+#
+# Summary:
+#   - 50자 이내, 마침표 없음
+#   - 명령형 (Add, Fix, Update) 또는 한글 (인증 버그 수정)
+#
+# Body:
+#   - "왜" 변경했는지 설명
+#   - 이전 동작 vs 새 동작
+#   - 72자 줄바꿈
+#
+# Footer:
+#   Review: passed (code-reviewer 통과 시)
+#   Closes #123
+#   BREAKING CHANGE: 설명
+#   Co-Authored-By: Claude <noreply@anthropic.com>
+#
+# ───────────────────────────────────────────────────────────────
+# Example
+# ───────────────────────────────────────────────────────────────
+#
+# feat(layout): 머신 드래그 이동 기능 추가
+#
+# Interact.js로 드래그 구현. 위치 변경 시 layoutStore 자동 업데이트.
+# 경계 체크로 영역 밖 이동 방지.
+#
+# Review: passed
+#
+# Co-Authored-By: Claude <noreply@anthropic.com>
+#
