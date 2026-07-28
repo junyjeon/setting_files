@@ -1,0 +1,18 @@
+# Allowlist only: prevent accidental copies of ~/.claude runtime/private data.
+*
+
+!.gitignore
+!README.md
+!CLAUDE.md
+!settings.shared.json
+!settings.optional.json
+
+!agents/
+!agents/*.md
+
+!rules/
+!rules/*.md
+
+!skills/
+!skills/deep-interview/
+!skills/deep-interview/SKILL.md
